@@ -43,15 +43,18 @@ button {
 
 section {
   display: flex;
-  height: 460px;
+  height: 800px;
   background-color: black;
   color: white;
   padding: 24px 72px;
   justify-content: space-around;
   flex-direction: column;
-  align-items: center
-  ;
+  align-items: center;
+
 }
+
+
+
 
 h1,
 h2 {
@@ -63,33 +66,31 @@ h2 {
 
 h1 {
   margin-top: 0;
-  font-size: 32px;
+  font-size: 54px;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 28px;
   margin-bottom: 0;
 }
 
 input {
-  height: 58px;
-  width: 80%;
-  max-width: 600px;
-  border-radius: 29px;
+  height: 100px;
+  width: 1000px;
+  border-radius: 50px;
   border: 0px;
-  padding: 0 24px;
- 
+  padding: 50px 24px;
+  font-size: larger;
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
-  height: 100vh;
+  /* height: 100vh; */
   
   justify-content: space-around;
   background-color: white;
-  padding: 32px 72px;
-  margin: 10px;
+  padding: 50px 300px;
 }
 
 nav button {
@@ -105,17 +106,18 @@ nav button {
 .img-placeholder {
   display: flex;
   justify-content: space-around;
-  width: 355px;
-  height: 275px;
+  width: 600px;
+  height: 475px;
   background-color: gray;
-  border-radius: 8px;
+  border-radius: 10px;
  
 }
 
 .card-footer {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 25px;
+  margin-bottom: 50px;
 
 }
 
@@ -132,10 +134,11 @@ nav button {
 }
 
 #subnav button {
-  border-radius: 8px;
-  padding: 10px 16px;
+  border-radius: 15px;
+  padding: 18px 14px;
   border: 1px solid black;
   background-color: white;
+  font-size: 24px;
   display: flex;
   justify-content: space-around;
   justify-content: space-evenly;
@@ -145,15 +148,18 @@ nav button {
     margin-left: auto;
 }
 
-#trending p {
+#trending {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  font-size: 28px;
+  align-items: center;
+}
+
+#trending p {
   text-align: center;
   background-color: white;
   color: black;
   border-radius: 50px;
-  padding: 6px 15px;
-  
-  justify-content: space-around;
-  width: fit-content;
+  padding: 10px 28px;
 }
